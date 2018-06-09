@@ -1,6 +1,7 @@
 (function($) {
     $.fn.totop = function () {
         let to_btn = this;
+        to_btn.css('opacity','.7');
         $(document).scroll(function () {
             let pos = $(window).scrollTop();
 
